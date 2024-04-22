@@ -1,0 +1,25 @@
+{
+  "name": "turso-linkedin",
+  "version": "1.0.0",
+  "description": "this package is to create a crud to schedule my linkedin posts",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "author": "yaigenes",
+  "license": "ISC",
+  "dependencies": {
+    "@libsql/client": "^0.6.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.9",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.20.17"
+  }
+}
